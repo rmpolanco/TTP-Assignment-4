@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTP Assignment 4</title>
+    <script src="script.js" async></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="prob1">
+        <div id="section1">
+            <button onclick="imRight(1)"id="button1">CLICK ME</button>
+            <h3 id="text1"></h3>
+        </div>
+        <div id="section2">
+            <h3 id="text2"></h3>
+            <button onclick="imRight(2)"id="button2">CLICK ME</button>
+        </div>
+    </div>
+    <div class="prob2">
+        <div id="big" onmouseover="warn()">
+            <h1>DON'T HOVER OVER ME!</h1>
+        </div>
+    </div>
+    <div class="prob3and4">
+        <form id="passform">
+            <label for="usern"><em>Enter your username below:</em></label>
+            <br>
+            <input type="text" name="usern">
+            <br>
+            <br>
+            <label for="email"><em>Enter your e-mail below:</em></label>
+            <br>
+            <input type="text" name="email">
+            <br>
+            <br>
+            <label for="pass"><em>Enter your password below:</em></label>
+            <br>
+            <input type="password" name="pass">
+            <br>
+            <br>
+            <input type="submit" class="submitbtn" value="SUBMIT">
+        </form>
+        <h1>...</h1>
+        <form id="volform">
+            <label for="volume">Enter the radius of the sphere:</label>
+            <input type="text" name="volume">
+            <br>
+            <br>
+            <input type="submit" class="submitbtn" value="GET VOLUME">
+            <br>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Sphere-with-blender.png" alt="Sphere">
+        </form>
+    </div>
+</body>
+</html>

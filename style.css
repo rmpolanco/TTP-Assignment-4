@@ -1,0 +1,11 @@
+body{background-color:lightgray}
+.prob1{display:flex;margin-bottom:400px;justify-content: space-between;}
+#section1{margin-left:400px;display:flex}
+#section2{margin-right:400px;display:flex}
+button{font-size:30px;padding:15px;margin:20px 20px;background-color:black;color:white;border-radius:20px;border-style:none}
+h3{font-size:30px;font-weight: bold;}
+#big{font-size:30px;text-align: center;background-color: red;color:white;width:400px;margin:auto;padding:20px;border-radius: 30px;}
+.prob3and4{margin-top:400px;font-size:25px;text-align: center;}
+input{padding:3px;font-size:20px;border-radius:5px}
+.submitbtn{margin-bottom:10px;padding:10px;font-size:30px;font-weight:bold;border-radius:10px;border-style: solid;border-color:black;border-width:4px}
+#volform{margin:400px 0px 200px 0px;text-align: center;font-weight: bold}
